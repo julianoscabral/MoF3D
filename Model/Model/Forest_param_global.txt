@@ -1,0 +1,17 @@
+Timesteps	80
+Replicates	1
+MaxX	50
+MaxY	50
+MaxZ	80
+WidthCorridor	20
+VoxelSize	1
+ReportForest	1
+ReportLight	1
+ReportMortality	1
+ReportShoots	1
+ReportTrees	1
+ReportVoxel	1
+SimulateForest	0
+ThreadCount	2
+VisualizationMethod	2
+VisualizationShader	1
