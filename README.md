@@ -1,7 +1,20 @@
 # MoF3D
 Modelling Forests in 3 Dimensions
 
-This is the repository with the codes and executables for a mechanistic model for simulating realistic functional-structural forests in 3D (DFG project ModVE, number SA-21331).
+This is the repository with the codes and executables for a mechanistic model for simulating realistic functional-structural forests in 3D (DFG project ModVE, number SA-21331). The model is presented in the PhD thesis of Gunnar Petter (https://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0023-3E28-8) and in the manuscript:
+
+Petter, G., Kreft, H., Ong, Y., Zotz, G., Sarmento, J. (to be submitted). Modeling the long-term dynamics of tropical forests: from leaf traits to whole-tree growth patterns. currently in BioRxiv.
+
+MoF3D is also used in the manuscripts:
+
+Petter, G.; Zotz, G.; Kreft, H.; Sarmento Cabral, J. (submitted). Modelling the effects of forest dynamics, selective logging and fragment size on structure and dynamics of epiphyte communities. Journal of Ecology. (under review).
+
+Disclaimer: The code and configuration files are not necessarily user friendly (no professional computer scientist here), so please do not hesitate in contacting if you want to apply the model and have trouble figuring out how to specify the configuration file.
+
+For further information, support and project ideas, contact Juliano Sarmento Cabral: juliano.sarmento_cabral@uni-wuerzburg.de
+
+
+Instructions to run the model:
 
 To run the code, it is necessary to install GroIMP (https://sourceforge.net/projects/groimp/), a 3D modelling plattform written in Java. Hence, it is also necessary to have Java installed. After downloading GroIMP, open the program from the desktop shortcut icon, then open the code and modify the path of the code and input files as well as the path in which output files should be saved in (one for the raw data, one for pictures):
 /**Set model folder*/  
@@ -232,7 +245,5 @@ MethodBranchGrowth	1
 ALProdMaxMethod	0
 
 BranchLossMinBiomass	100
-
-
 
 
