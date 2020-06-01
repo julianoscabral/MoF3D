@@ -15,6 +15,7 @@ Save the modified code and on the left field of the programm hit the button 'run
 
 The model recognizes two types of input files for running a simulation, which is found in a folder that here is called 'Model':
 1) The first type of file is called "Forest_param_global" and there should be only one of this type of file in the folder, in which global parameters for the simulation experiment can be specified:
+
 Timesteps	80 (Number of time steps in years)
 
 Replicates	1 (Number of replicate runs, each requires a pass file?)
@@ -48,6 +49,7 @@ ThreadCount	2 (?)
 VisualizationMethod	2 (?)
 
 VisualizationShader	1 (?)
+
     
  2) The second type of file is called "Forest_param_pass" pasted with a number (Replicate -1) that refers to the replicate. There should be as many pass files as there should be replicates. These pass files contain the parameters of the environment and tree species:
 
