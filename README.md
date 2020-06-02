@@ -39,7 +39,7 @@ MaxY	50 (Extent in grid cells at the Y dimension)
 
 MaxZ	80 (Extent in grid cells at the Z dimension, height above ground)
 
-WidthCorridor	20 (Extent in grid cells of a buffer zone for edge effects?)
+WidthCorridor	20 (Extent in grid cells of a buffer zone for edge effects)
 
 VoxelSize	1 (3D grain in grid cells or meter)
 
@@ -55,13 +55,13 @@ ReportTrees	1 (if 1: save forest outputs to file; if 0: no output saved to file 
 
 ReportVoxel	1 (if 1: save forest outputs to file; if 0: no output saved to file at the voxel level)
 
-SimulateForest	0 (if 1: simulate entire forest; if 0: simulate single tree ?)
+SimulateForest	0 (if 1: simulate entire forest; if 0: simulate single tree)
 
-ThreadCount	2 (?)
+ThreadCount	2 
 
-VisualizationMethod	2 (?)
+VisualizationMethod	2 
 
-VisualizationShader	1 (?)
+VisualizationShader	1 
 
     
  2) The second type of file is called "Forest_param_pass" pasted with a number (Replicate -1) that refers to the replicate. There should be as many pass files as there should be replicates. These pass files contain the parameters of the environment and tree species:
