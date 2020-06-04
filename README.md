@@ -3,7 +3,7 @@ Modelling Forests in 3 Dimensions
 
 This is the repository with the codes and executables for a mechanistic model for simulating realistic functional-structural forests in 3D (DFG project ModVE, number SA-21331). The model is presented in the PhD thesis of Gunnar Petter (https://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0023-3E28-8) and in the manuscript:
 
-Petter, G., Kreft, H., Ong, Y., Zotz, G., Sarmento, J. (to be submitted). Modeling the long-term dynamics of tropical forests: from leaf traits to whole-tree growth patterns. currently in BioRxiv.
+Petter, G., Kreft, H., Ong, Y., Zotz, G., Sarmento, J. (to be submitted). Modeling the long-term dynamics of tropical forests: from leaf traits to whole-tree growth patterns. BioRxiv (https://www.biorxiv.org/content/10.1101/2020.06.01.128256v1).
 
 MoF3D is also used in the manuscripts:
 
