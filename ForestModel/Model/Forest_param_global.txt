@@ -1,4 +1,4 @@
-Timesteps	80
+Timesteps	500
 Replicates	1
 MaxX	50
 MaxY	50
@@ -11,7 +11,7 @@ ReportMortality	1
 ReportShoots	1
 ReportTrees	1
 ReportVoxel	1
-SimulateForest	0
-ThreadCount	2
-VisualizationMethod	2
-VisualizationShader	1
+SimulateForest	1
+ThreadCount	4
+VisualizationMethod	1
+VisualizationShader	0
