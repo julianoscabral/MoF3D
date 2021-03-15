@@ -1,7 +1,7 @@
 # MoF3D
-Modelling Forests in 3 Dimensions
+Modelling tree and Forests in 3 Dimensions
 
-This is the repository with the codes and executables for a mechanistic model for simulating realistic functional-structural forests in 3D (DFG project ModVE, number SA-21331). The model is presented in the PhD thesis of Gunnar Petter (https://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0023-3E28-8) and in the manuscript:
+This is the repository with the codes and executables for a mechanistic model for simulating realistic functional-structural trees and forests in 3D (DFG project ModVE, number SA-21331). The model is presented in the PhD thesis of Gunnar Petter (https://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0023-3E28-8) and in the manuscript:
 
 Petter, G., Kreft, H., Ong, Y., Zotz, G., Sarmento, J. (to be submitted). Modeling the long-term dynamics of tropical forests: from leaf traits to whole-tree growth patterns. BioRxiv (https://www.biorxiv.org/content/10.1101/2020.06.01.128256v1).
 
@@ -9,10 +9,11 @@ MoF3D is also used in the manuscripts:
 
 Petter, G.; Zotz, G.; Kreft, H.; Sarmento Cabral, J. (submitted). Modelling the effects of forest dynamics, selective logging and fragment size on structure and dynamics of epiphyte communities. Journal of Ecology. (under review).
 
-*Disclaimer* The code and configuration files are not necessarily user friendly (no professional computer scientist here), so please do not hesitate in contacting if you want to apply the model and have trouble figuring out how to specify the configuration file.
+*Disclaimer* The code and configuration files are not entirely user friendly (no professional computer scientist here), so please do not hesitate in contacting if you want to apply the model and have trouble figuring out how to specify the configuration file.
 
 For further information, support and project ideas, contact Juliano Sarmento Cabral: juliano.sarmento_cabral@uni-wuerzburg.de
 
+We provide a model manual and two example settings, one for simulating a tree and one for simulating a forest. 
 
 Instructions to run the model:
 
@@ -30,15 +31,10 @@ The model recognizes two types of input files for running a simulation, which is
 1) The first type of file is called "Forest_param_global" and there should be only one of this type of file in the folder, in which global parameters for the simulation experiment can be specified:
 
 Timesteps	80 (Number of time steps in years)
-
 Replicates	1 (Number of replicate runs, each requires a pass file?)
-
 MaxX	50 (Extent in grid cells at the X dimension)
-
 MaxY	50 (Extent in grid cells at the Y dimension)
-
 MaxZ	80 (Extent in grid cells at the Z dimension, height above ground)
-
 WidthCorridor	20 (Extent in grid cells of a buffer zone for edge effects)
 
 VoxelSize	1 (3D grain in grid cells or meter)
