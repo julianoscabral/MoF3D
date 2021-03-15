@@ -30,34 +30,23 @@ Save the modified code and on the left field of the programm hit the button 'run
 The model recognizes two types of input files for running a simulation, which is found in a folder that here is called 'Model':
 1) The first type of file is called "Forest_param_global" and there should be only one of this type of file in the folder, in which global parameters for the simulation experiment can be specified:
 
-Timesteps	80 (Number of time steps in years)
-Replicates	1 (Number of replicate runs, each requires a pass file?)
-MaxX	50 (Extent in grid cells at the X dimension)
-MaxY	50 (Extent in grid cells at the Y dimension)
-MaxZ	80 (Extent in grid cells at the Z dimension, height above ground)
-WidthCorridor	20 (Extent in grid cells of a buffer zone for edge effects)
-
-VoxelSize	1 (3D grain in grid cells or meter)
-
-ReportForest	1 (if 1: save forest outputs to file; if 0: no output saved to file at the forest level)
-
-ReportLight	1 (if 1: save distribution of light conditions to file; if 0: no output saved to file)
-
-ReportMortality	1 (if 1: save mortality tallies to file; if 0: no output saved to file)
-
-ReportShoots	1 (if 1: save shoot outputs to file; if 0: no output saved to file at the shoot level)
-
-ReportTrees	1 (if 1: save forest outputs to file; if 0: no output saved to file at the tree level)
-
-ReportVoxel	1 (if 1: save forest outputs to file; if 0: no output saved to file at the voxel level)
-
-SimulateForest	0 (if 1: simulate entire forest; if 0: simulate single tree)
-
-ThreadCount	2 
-
-VisualizationMethod	2 
-
-VisualizationShader	1 
+<p>Timesteps	80 (Number of time steps in years)</p> 
+<p>Replicates	1 (Number of replicate runs, each requires a pass file?)</p> 
+<p>MaxX	50 (Extent in grid cells at the X dimension)</p> 
+<p>MaxY	50 (Extent in grid cells at the Y dimension)</p> 
+<p>MaxZ	80 (Extent in grid cells at the Z dimension, height above ground)</p> 
+<p>WidthCorridor	20 (Extent in grid cells of a buffer zone for edge effects)</p> 
+<p>VoxelSize	1 (3D grain in grid cells or meter)</p> 
+<p>ReportForest	1 (if 1: save forest outputs to file; if 0: no output saved to file at the forest level)</p> 
+<p>ReportLight	1 (if 1: save distribution of light conditions to file; if 0: no output saved to file)</p> 
+<p>ReportMortality	1 (if 1: save mortality tallies to file; if 0: no output saved to file)</p> 
+<p>ReportShoots	1 (if 1: save shoot outputs to file; if 0: no output saved to file at the shoot level)</p> 
+<p>ReportTrees	1 (if 1: save forest outputs to file; if 0: no output saved to file at the tree level)</p> 
+<p>ReportVoxel	1 (if 1: save forest outputs to file; if 0: no output saved to file at the voxel level)</p> 
+<p>SimulateForest	0 (if 1: simulate entire forest; if 0: simulate single tree)</p> 
+<p>ThreadCount	2</p>  
+<p>VisualizationMethod	2</p>  
+<p>VisualizationShader	1</p>  
 
     
  2) The second type of file is called "Forest_param_pass" pasted with a number (Replicate -1) that refers to the replicate. There should be as many pass files as there should be replicates. These pass files contain the parameters of the environment and tree species:
