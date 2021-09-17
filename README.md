@@ -19,7 +19,7 @@ For further information, support and project ideas, contact Juliano Sarmento Cab
 
 We provide a model manual and two example settings, one for simulating a tree and one for simulating a forest. 
 
-Instructions to run the model (please check first the manual provided as appendix to the model paper):
+Instructions to run the model (please check first the manual provided in this repository):
 
 To run the code, it is necessary to install GroIMP (https://sourceforge.net/projects/groimp/), a 3D modelling plattform written in Java. Hence, it is also necessary to have Java installed. After downloading GroIMP, open the program from the desktop shortcut icon, then open the code and modify the path of the code and input files as well as the path in which output files should be saved in (one for the raw data, one for pictures):
 /**Set model folder*/  
