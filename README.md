@@ -1,13 +1,17 @@
 # MoF3D
 Modelling tree and Forests in 3 Dimensions
 
-This is the repository with the codes and executables for a mechanistic model for simulating realistic functional-structural trees and forests in 3D (DFG project ModVE, number SA-21331). The model is presented in the PhD thesis of Gunnar Petter (https://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0023-3E28-8) and in the preprint (currently in review as well):
+This is the repository with the codes and executables for a mechanistic model for simulating realistic functional-structural trees and forests in 3D (DFG project ModVE, number SA-21331). The model is presented in the PhD thesis of Gunnar Petter (https://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0023-3E28-8), has been available as preprint:
 
 Petter, G., Kreft, H., Ong, Y., Zotz, G., Sarmento, J. (2020). Modeling the long-term dynamics of tropical forests: from leaf traits to whole-tree growth patterns. BioRxiv (https://www.biorxiv.org/content/10.1101/2020.06.01.128256v1).
 
+The revised version of the preprint is now published:
+
+Petter, G., Kreft, H., Ong, Y., Zotz, G., Sarmento, J. (2021). Modelling the long-term dynamics of tropical forests: From leaf traits to whole-tree growth patterns. Ecological Modelling, 460, 109735. https://doi.org/10.1016/j.ecolmodel.2021.109735
+
 MoF3D is also used in the manuscripts:
 
-Petter, G.; Zotz, G.; Kreft, H.; Sarmento Cabral, J. (2021). Agent-based modelling of the effects of forest dynamics, selective logging, and fragment size on epiphyte communities. Ecology and Evolution, early view. https://doi.org/10.1002/ece3.7255
+Petter, G.; Zotz, G.; Kreft, H.; Sarmento Cabral, J. (2021). Agent-based modelling of the effects of forest dynamics, selective logging, and fragment size on epiphyte communities. Ecology and Evolution, 11, 2937–2951. https://doi.org/10.1002/ece3.7255
 
 *Disclaimer* The code and configuration files are not entirely user friendly (no professional computer scientist here), so please do not hesitate in contacting if you want to apply the model and have trouble figuring out how to specify the configuration file.
 
@@ -15,7 +19,7 @@ For further information, support and project ideas, contact Juliano Sarmento Cab
 
 We provide a model manual and two example settings, one for simulating a tree and one for simulating a forest. 
 
-Instructions to run the model:
+Instructions to run the model (please check first the manual provided as appendix to the model paper):
 
 To run the code, it is necessary to install GroIMP (https://sourceforge.net/projects/groimp/), a 3D modelling plattform written in Java. Hence, it is also necessary to have Java installed. After downloading GroIMP, open the program from the desktop shortcut icon, then open the code and modify the path of the code and input files as well as the path in which output files should be saved in (one for the raw data, one for pictures):
 /**Set model folder*/  
